@@ -149,7 +149,8 @@ mod scored;
 pub mod visit;
 #[macro_use]
 pub mod data;
-
+#[cfg(feature = "base_delta_graph")]
+pub mod base_delta_graph;
 pub mod acyclic;
 pub mod adj;
 pub mod algo;

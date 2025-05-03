@@ -71,13 +71,14 @@ all = [
     "matrix_graph",
     "stable_graph",
     "graphmap",
+    "base_delta_graph",
     "rayon",
     "dot_parser",
 ]
 default = ["std", "graphmap", "stable_graph", "matrix_graph"]
 
 generate = [] # For unstable features
-
+base_delta_graph = []
 graphmap = []
 matrix_graph = []
 serde-1 = ["serde", "serde_derive"]
