@@ -75,7 +75,7 @@ all = [
     "rayon",
     "dot_parser",
 ]
-default = ["std", "graphmap", "stable_graph", "matrix_graph"]
+default = ["std", "graphmap", "stable_graph", "matrix_graph", "base_delta_graph"]
 
 generate = [] # For unstable features
 base_delta_graph = []
